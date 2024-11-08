@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    transition: .9s;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.container{
+    height: 300px;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #e2d4d4;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 35px;
+    color: #262626;
+    text-transform: uppercase;
+}
+h2{
+    padding-bottom: 20px;
+
+}
+
+.cookie-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#cookie-type {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ff8ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+select, button{
+    width: 46%;
+    border-radius: 8px;
+}
+
+/* Поле ввода */
+input[type="text"] {
+    width: 430px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+    margin-bottom: 30px;
+}
+
+
+
+button {
+    width: 
+    45%;
+    padding: 12px;
+    background-color: #4d0c0c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(0.9);
+    transition: .9s;
+
+}
+button:not(:hover){
+    transition: .9s;
+}
